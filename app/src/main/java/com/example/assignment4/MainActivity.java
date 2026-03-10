@@ -51,7 +51,6 @@ public class MainActivity extends AppCompatActivity {
             String data = input.getText().toString();
             if (data.isEmpty()) return;
 
-            // Replace display symbols with math operators for Rhino
             data = data.replace("÷", "/");
             data = data.replace("×", "*");
 
